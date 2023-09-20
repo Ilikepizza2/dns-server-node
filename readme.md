@@ -52,7 +52,7 @@ This is a basic custom DNS server implemented in Node.js with no external depend
 
 ## Customization
 
-You can customize the DNS server behavior by editing the `dns-server.js` file. For example, you can add your own DNS records or modify the server's behavior as needed for your project.
+You can customize the DNS server behavior by editing the `index.js` file. For example, you can add your own DNS records or modify the server's behavior as needed for your project.
 
 ## Adding your own records
 You can add the `.zone` file into the /zones/ directory. You can also parse any txt file by installing `dns-zonefile` and running the script `addZone.sh` which is included. This wasn't supported by default because I didn't want to include any external dependency. 

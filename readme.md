@@ -27,7 +27,7 @@ This is a basic custom DNS server implemented in Node.js with no external depend
 1. Start the custom DNS server:
 
    ```bash
-   sudo node ./dns-server.js
+   sudo node ./index.js
    ```
 
    This will start the DNS server on the default port 53.

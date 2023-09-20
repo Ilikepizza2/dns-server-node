@@ -1,0 +1,59 @@
+{
+    "$origin": "example.com.",
+    "ns": [
+        {
+            "name": "@",
+            "host": "ns1.p68.dns.oraclecloud.net.",
+            "ttl": 86400
+        },
+        {
+            "name": "@",
+            "host": "ns2.p68.dns.oraclecloud.net.",
+            "ttl": 86400
+        },
+        {
+            "name": "@",
+            "host": "ns3.p68.dns.oraclecloud.net.",
+            "ttl": 86400
+        },
+        {
+            "name": "@",
+            "host": "ns4.p68.dns.oraclecloud.net.",
+            "ttl": 86400
+        }
+    ],
+    "mx": [
+        {
+            "name": "@",
+            "preference": 10,
+            "host": "mail.example.com.",
+            "ttl": 3600
+        },
+        {
+            "name": "@",
+            "preference": 20,
+            "host": "vpn.example.com.",
+            "ttl": 3600
+        },
+        {
+            "name": "@",
+            "preference": 30,
+            "host": "mail.example.com.",
+            "ttl": 3600
+        }
+    ],
+    "a": [
+        {
+            "name": "@",
+            "ip": "204.13.248.106",
+            "ttl": 60
+        }
+    ],
+    "txt": [
+        {
+            "name": "@",
+            "txt": "\"v=spf1 includespf.oraclecloud.net ~all\"",
+            "ttl": 3600
+        }
+    ]
+}

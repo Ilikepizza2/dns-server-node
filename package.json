@@ -1,0 +1,16 @@
+{
+  "name": "custom-dns-server",
+  "version": "1.0.0",
+  "description": "My attempt at building a custom dns server using udp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dns",
+    "server",
+    "custom"
+  ],
+  "author": "Ilikepizza2",
+  "license": "ISC"
+}

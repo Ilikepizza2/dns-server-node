@@ -1,0 +1,93 @@
+{
+    "soa": {
+        "name": "google.com.",
+        "minimum": 3600,
+        "expire": 604800,
+        "retry": 7200,
+        "refresh": 28800,
+        "serial": 2018122702,
+        "rname": "dns.net.",
+        "mname": "google.com.",
+        "ttl": 3600
+    },
+    "a": [
+        {
+            "name": "@",
+            "ip": "192.0.2.249",
+            "ttl": 600
+        },
+        {
+            "name": "blog",
+            "ip": "192.0.2.255",
+            "ttl": 10800
+        },
+        {
+            "name": "dev",
+            "ip": "192.0.2.254",
+            "ttl": 1800
+        },
+        {
+            "name": "dev01",
+            "ip": "192.0.2.253",
+            "ttl": 1800
+        },
+        {
+            "name": "dev02",
+            "ip": "192.0.2.252",
+            "ttl": 1800
+        },
+        {
+            "name": "dev03",
+            "ip": "192.0.2.251",
+            "ttl": 1800
+        },
+        {
+            "name": "dev04",
+            "ip": "192.0.2.250",
+            "ttl": 1800
+        }
+    ],
+    "cname": [
+        {
+            "name": "abc123b432dc7785b7ef31f04f25c3e71",
+            "alias": "verify.bing.com.",
+            "ttl": 1800
+        },
+        {
+            "name": "akamai",
+            "alias": "www.example.com.edgekey.net.",
+            "ttl": 600
+        },
+        {
+            "name": "email",
+            "alias": "email.secureserver.net.",
+            "ttl": 3600
+        }
+    ],
+    "mx": [
+        {
+            "name": "@",
+            "preference": 10,
+            "host": "amlxe.l.google.com.",
+            "ttl": 604800
+        },
+        {
+            "name": "@",
+            "preference": 10,
+            "host": "aplxe.l.google.com.",
+            "ttl": 604800
+        }
+    ],
+    "txt": [
+        {
+            "name": "@",
+            "txt": "\"google-site-verification=3J82-80dbMyCo5Q5C1G11JszeOnZPGCSYlHcPcXg\"",
+            "ttl": 3600
+        },
+        {
+            "name": "@",
+            "txt": "\"google-site-verification=eS_QPYLE_W4nduSrlN-cddxG7ZqOnB743xsbX918\"",
+            "ttl": 3600
+        }
+    ]
+}
